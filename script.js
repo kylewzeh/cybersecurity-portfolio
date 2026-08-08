@@ -43,3 +43,18 @@ document.querySelectorAll('[data-copy]').forEach((button) => {
     }
   });
 });
+
+const projectsSection = document.getElementById('projects');
+if (projectsSection) {
+  const architecture = document.createElement('section');
+  architecture.id = 'architecture';
+  architecture.className = 'architecture-section';
+  architecture.innerHTML = `
+    <div class="container">
+      <div class="section-heading"><span>04.5</span><h2>Lab Architecture</h2></div>
+      <p class="section-intro">A controlled multi-node environment used for security monitoring, authorised testing and defensive validation.</p>
+      <div class="architecture-frame"><img src="architecture.svg" alt="Diagram of the controlled Wazuh cybersecurity lab architecture" loading="lazy"></div>
+      <div class="architecture-note"><strong>How it worked:</strong> Kali Linux was used for authorised testing against lab targets. Endpoint and IDS telemetry was collected centrally by Wazuh for alert generation, investigation and validation of defensive controls.</div>
+    </div>`;
+  projectsSection.parentNode.insertBefore(architecture, projectsSection);
+}
