@@ -44,6 +44,17 @@ document.querySelectorAll('[data-copy]').forEach((button) => {
   });
 });
 
+const architectureStyle = document.createElement('style');
+architectureStyle.textContent = `
+.architecture-section{padding:70px 0;background:var(--soft)}
+.architecture-frame{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#07111e;box-shadow:0 18px 45px rgba(10,30,60,.12)}
+.architecture-frame img{display:block;width:100%;height:auto}
+.architecture-note{margin-top:14px;padding:15px 18px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--muted);font-size:.88rem}
+.architecture-note strong{color:var(--text)}
+@media(max-width:767px){.architecture-section{padding:58px 0}.architecture-frame{border-radius:12px}.architecture-note{font-size:.82rem}}
+`;
+document.head.appendChild(architectureStyle);
+
 const projectsSection = document.getElementById('projects');
 if (projectsSection) {
   const architecture = document.createElement('section');
