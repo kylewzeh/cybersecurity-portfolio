@@ -21,10 +21,18 @@ themeToggle?.addEventListener('click', () => {
 });
 
 const backToTop = document.getElementById('back-to-top');
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 450) backToTop.classList.add('show');
-  else backToTop.classList.remove('show');
-});
+const progressBar = document.getElementById('scroll-progress-bar');
+
+function updateScrollUI() {
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
+  if (progressBar) progressBar.style.width = `${Math.min(100, Math.max(0, progress))}%`;
+  if (backToTop) backToTop.classList.toggle('show', window.scrollY > 450);
+}
+
+window.addEventListener('scroll', updateScrollUI, { passive: true });
+updateScrollUI();
+
 backToTop?.addEventListener('click', (event) => {
   event.preventDefault();
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -40,6 +48,30 @@ document.querySelectorAll('[data-copy]').forEach((button) => {
       setTimeout(() => { button.textContent = original; }, 1400);
     } catch (error) {
       window.prompt('Copy this value:', value);
+    }
+  });
+});
+
+const navLinks = [...document.querySelectorAll('.site-nav .nav-link[href^="#"]')];
+const sections = navLinks
+  .map((link) => document.querySelector(link.getAttribute('href')))
+  .filter(Boolean);
+
+if ('IntersectionObserver' in window && sections.length) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      navLinks.forEach((link) => link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`));
+    });
+  }, { rootMargin: '-25% 0px -60% 0px', threshold: 0 });
+  sections.forEach((section) => observer.observe(section));
+}
+
+const navCollapse = document.getElementById('navbarNav');
+navLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth < 992 && navCollapse?.classList.contains('show')) {
+      bootstrap.Collapse.getOrCreateInstance(navCollapse).hide();
     }
   });
 });
