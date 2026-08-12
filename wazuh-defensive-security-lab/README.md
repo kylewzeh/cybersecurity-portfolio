@@ -15,6 +15,13 @@ The archive supports the following Wazuh-related work in a controlled lab enviro
 - Controlled attack-and-defend exercises
 - Defensive response and investigation notes
 
+## Published evidence
+
+- [Security Configuration Assessment screenshot](./screenshots/wazuh-security-configuration-assessment.jpg)
+- [File Integrity Monitoring screenshot](./screenshots/wazuh-file-integrity-monitoring.jpg)
+- [Evidence register](./docs/evidence-register.md)
+- [Simulated Wazuh incident-response write-up](../technical-writeups/writeups/simulated-wazuh-incident-response.md)
+
 ## What I am not claiming
 
 I am not presenting this as production security operations or as an external client deployment. The evidence is from coursework and lab activity.
