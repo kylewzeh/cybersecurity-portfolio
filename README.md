@@ -32,6 +32,10 @@ The submitted material supports portfolio evidence in these areas:
 - Security data analysis and reporting
 - Azure appears in the source material as part of the lab context, but I have kept claims limited to what is directly evidenced
 
+## Evidence now included
+
+Selected screenshots, two technical case studies, an evidence register and four reviewed scripts are included in the project folders. The screenshots are limited to practical evidence and do not include formative assessment pages or source documents.
+
 ## Notes on scope
 
 The portfolio is intentionally organised around practical evidence. Where the source material shows simulation, lab work or proposed mitigation rather than real-world operations, the documentation says so explicitly.
