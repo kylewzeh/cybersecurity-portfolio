@@ -15,6 +15,12 @@ The submitted material supports:
 - Vulnerability assessment against lab hosts
 - Security recommendations based on observed exposure
 
+## Published evidence
+
+- [Nmap service-enumeration screenshot 1](./screenshots/nmap-service-enumeration-01.jpg)
+- [Nmap service-enumeration screenshot 2](./screenshots/nmap-service-enumeration-02.jpg)
+- [Controlled network assessment write-up](../technical-writeups/writeups/controlled-network-assessment.md)
+
 ## Controlled environment
 
 The evidence comes from authorised coursework and lab systems, including intentionally vulnerable targets.
