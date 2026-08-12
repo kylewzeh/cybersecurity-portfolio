@@ -4,10 +4,10 @@ This project collects the scripting work that can be legitimately presented from
 
 ## Included scripts
 
-- `internet_connectivity_monitor.py`
-- `network_ping_error_handling.py`
-- `network_scan_and_sql_awareness.sh`
-- `system_security_audit.py`
+- [`internet_connectivity_monitor.py`](./scripts/internet_connectivity_monitor.py)
+- [`network_ping_error_handling.py`](./scripts/network_ping_error_handling.py)
+- [`network_scan_and_sql_awareness.sh`](./scripts/network_scan_and_sql_awareness.sh)
+- [`system_security_audit.py`](./scripts/system_security_audit.py)
 
 ## Evidence-backed value
 
