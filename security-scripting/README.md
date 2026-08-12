@@ -9,6 +9,15 @@ This project collects the scripting work that can be legitimately presented from
 - [`network_scan_and_sql_awareness.sh`](./scripts/network_scan_and_sql_awareness.sh)
 - [`system_security_audit.py`](./scripts/system_security_audit.py)
 
+## Published outputs
+
+- [Connectivity monitor log](./evidence/internet_check.log)
+- [Network error-handling log](./evidence/network_errors.txt)
+- [Nmap scan output](./evidence/nmap_scan_results.txt)
+- [Sanitized system audit report](./evidence/audit_report.txt)
+
+These are captured lab outputs. The audit report has user and hardware identifiers redacted.
+
 ## Evidence-backed value
 
 These scripts support the following portfolio claims:

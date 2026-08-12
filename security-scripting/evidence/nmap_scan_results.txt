@@ -1,0 +1,6 @@
+# Nmap 7.99 scan against localhost in the lab
+Nmap scan report for localhost (127.0.0.1)
+Host is up.
+Not shown: 99 closed tcp ports
+PORT   STATE SERVICE
+22/tcp open  ssh
