@@ -1,37 +1,17 @@
 # Incident Response Lab
 
-This project is for the incident-response-style material that is supported by the submitted archive.
+This folder documents the response process used in a controlled Wazuh exercise. The scenario included alert review, authentication monitoring, a brute-force attempt, and an unauthorised file change.
 
-## Evidence-backed work
+## Response flow
 
-The archive supports lab-based work around:
+1. Review the alert and supporting Wazuh events.
+2. Scope the affected lab endpoint.
+3. Record containment and mitigation actions.
+4. Remove the unauthorised file and apply updates.
+5. Check that Wazuh communication has recovered.
 
-- alert review
-- authentication monitoring
-- incident investigation workflow
-- timeline-style analysis of security events
-- response and mitigation thinking
-- documentation of findings and next actions
+[Read the simulated incident-response note](../technical-writeups/writeups/simulated-wazuh-incident-response.md).
 
-## Important scope note
+## Scope
 
-This is a lab and coursework project, not a record of handling a live organisational incident.
-
-## Portfolio value
-
-The value here is showing that I can move from an alert or event into a structured response process:
-
-1. identify the event
-2. review the evidence
-3. assess impact and likelihood
-4. describe containment or mitigation steps
-5. document the outcome clearly
-
-## Source terminology preserved
-
-- incident response
-- authentication monitoring
-- security alert
-- mitigation
-- investigation
-- controlled environment
+This was a lab simulation, not a live organisational incident.
