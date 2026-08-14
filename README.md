@@ -1,41 +1,16 @@
-# Kyle Wootton-Zeh — Cybersecurity Portfolio
+# Kyle Wootton-Zeh | Cybersecurity Portfolio
 
-This repository contains the public-facing cybersecurity portfolio website plus evidence-backed project documentation derived from submitted coursework and controlled laboratory work.
+This repository contains my portfolio website and selected work from controlled cybersecurity labs.
 
-I have kept the published material conservative:
+## Open the projects
 
-- no formative assessment PDFs
-- no raw coursework submissions
-- no invented claims
-- only selected evidence that supports portfolio projects
+- [Wazuh Defensive Security Lab](./wazuh-defensive-security-lab/README.md): Wazuh monitoring, Security Configuration Assessment, File Integrity Monitoring, and incident-response evidence.
+- [Network Security Assessment](./network-security-assessment/README.md): Nmap service enumeration, traffic analysis, and defensive recommendations.
+- [Security Scripting](./security-scripting/README.md): Python and Bash scripts with captured lab output.
+- [Incident Response Lab](./incident-response-lab/README.md): a documented Wazuh-based simulated incident.
+- [Security Data Analysis](./security-data-analysis/README.md): Excel-based review and reporting.
+- [Technical Write-ups](./technical-writeups/README.md): concise notes on the Wazuh and network labs.
 
-## Published structure
+## Scope
 
-- [Wazuh Defensive Security Lab](./wazuh-defensive-security-lab/README.md)
-- [Network Security Assessment](./network-security-assessment/README.md)
-- [Security Scripting](./security-scripting/README.md)
-- [Incident Response Lab](./incident-response-lab/README.md)
-- [Security Data Analysis](./security-data-analysis/README.md)
-- [Technical Write-ups](./technical-writeups/README.md)
-
-## What the archive supports
-
-The submitted material supports portfolio evidence in these areas:
-
-- Wazuh SIEM deployment and monitoring
-- Security Configuration Assessment and File Integrity Monitoring
-- Controlled attack-and-defend exercises in a lab environment
-- Network discovery, service enumeration and traffic analysis
-- Linux administration and defensive controls such as `iptables`
-- Bash and Python scripting for monitoring and audit tasks
-- Incident triage and response-style documentation
-- Security data analysis and reporting
-- Azure appears in the source material as part of the lab context, but I have kept claims limited to what is directly evidenced
-
-## Evidence now included
-
-Selected screenshots, two technical case studies, an evidence register and four reviewed scripts are included in the project folders. The screenshots are limited to practical evidence and do not include formative assessment pages or source documents.
-
-## Notes on scope
-
-The portfolio is intentionally organised around practical evidence. Where the source material shows simulation, lab work or proposed mitigation rather than real-world operations, the documentation says so explicitly.
+Everything here comes from authorised coursework or controlled lab environments. Screenshots and logs are selected evidence, not formative-assessment submissions. Any simulated activity or proposed mitigation is labelled as such.
