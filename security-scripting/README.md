@@ -1,39 +1,19 @@
 # Security Scripting
 
-This project collects the scripting work that can be legitimately presented from the submitted archive.
+These are small Python and Bash scripts I wrote during cybersecurity scripting coursework. They focus on connectivity checks, error handling, basic authorised scanning, security awareness, and a simple system audit.
 
-## Included scripts
+## Scripts
 
-- [`internet_connectivity_monitor.py`](./scripts/internet_connectivity_monitor.py)
-- [`network_ping_error_handling.py`](./scripts/network_ping_error_handling.py)
-- [`network_scan_and_sql_awareness.sh`](./scripts/network_scan_and_sql_awareness.sh)
-- [`system_security_audit.py`](./scripts/system_security_audit.py)
+- [Internet connectivity monitor](./scripts/internet_connectivity_monitor.py)
+- [Network ping error handling](./scripts/network_ping_error_handling.py)
+- [Authorised network scan and SQL-awareness script](./scripts/network_scan_and_sql_awareness.sh)
+- [System security audit](./scripts/system_security_audit.py)
 
-## Published outputs
+## Captured output
 
 - [Connectivity monitor log](./evidence/internet_check.log)
-- [Network error-handling log](./evidence/network_errors.txt)
-- [Nmap scan output](./evidence/nmap_scan_results.txt)
+- [Network error log](./evidence/network_errors.txt)
+- [Nmap output from a localhost lab scan](./evidence/nmap_scan_results.txt)
 - [Sanitized system audit report](./evidence/audit_report.txt)
 
-These are captured lab outputs. The audit report has user and hardware identifiers redacted.
-
-## Evidence-backed value
-
-These scripts support the following portfolio claims:
-
-- Python and Bash scripting for security-adjacent automation
-- Network monitoring and connectivity checks
-- Error handling and operational robustness
-- Awareness of network scanning and SQL-related security considerations
-- System audit and defensive review tasks
-
-## What I am not claiming
-
-I am not claiming enterprise-scale automation or a polished production toolset. The work is coursework-derived and lab-oriented.
-
-## Recommended write-up angle
-
-A concise summary is:
-
-> Developed Python and Bash scripts for connectivity monitoring, network checks, system audit tasks and basic security-awareness workflows in a controlled training context.
+The audit report has the username and hardware identifier removed. These scripts are coursework-scale utilities, not production tooling.

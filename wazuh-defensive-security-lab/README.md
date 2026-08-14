@@ -1,46 +1,24 @@
 # Wazuh Defensive Security Lab
 
-This project captures the strongest defensive-security evidence from the submitted archive.
+I built and monitored a Wazuh lab as part of controlled coursework. The work covered endpoint monitoring, configuration checks, file-integrity events, authentication activity, and response steps during a simulated incident.
 
-## Evidence-backed work
+## What I worked on
 
-The archive supports the following Wazuh-related work in a controlled lab environment:
-
-- Wazuh SIEM deployment and monitoring
-- Security Configuration Assessment
+- Wazuh agent monitoring
+- Security Configuration Assessment against the CIS Ubuntu Linux 22.04 LTS Benchmark
 - File Integrity Monitoring
-- Authentication monitoring
-- Security alert review and validation
-- Network and host telemetry review
-- Controlled attack-and-defend exercises
-- Defensive response and investigation notes
+- authentication-event review
+- network and host telemetry review
+- controlled attack-and-defend exercises
+- incident investigation and response notes
 
-## Published evidence
+## Evidence
 
 - [Security Configuration Assessment screenshot](./screenshots/wazuh-security-configuration-assessment.jpg)
 - [File Integrity Monitoring screenshot](./screenshots/wazuh-file-integrity-monitoring.jpg)
 - [Evidence register](./docs/evidence-register.md)
-- [Simulated Wazuh incident-response write-up](../technical-writeups/writeups/simulated-wazuh-incident-response.md)
+- [Simulated Wazuh incident-response note](../technical-writeups/writeups/simulated-wazuh-incident-response.md)
 
-## What I am not claiming
+## Scope
 
-I am not presenting this as production security operations or as an external client deployment. The evidence is from coursework and lab activity.
-
-## Portfolio value
-
-This is the strongest single area in the archive because it shows real practical defensive-security workflow rather than only theory.
-
-## Recommended write-up angle
-
-A good portfolio summary for this project is:
-
-> Built and monitored a multi-node Wazuh SIEM lab, validated detections through controlled testing, reviewed Security Configuration Assessment results, and used File Integrity Monitoring plus authentication telemetry to support investigation and response.
-
-## Source terminology preserved
-
-- Wazuh
-- Security Configuration Assessment
-- File Integrity Monitoring
-- Authentication monitoring
-- Incident response
-- Controlled lab environment
+This was coursework and lab activity. It was not a production deployment or an external client engagement.
