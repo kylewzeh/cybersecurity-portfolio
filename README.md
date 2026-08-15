@@ -7,7 +7,7 @@ Selected evidence from authorised coursework and self-directed lab practice. The
 | Project | Practical evidence |
 | --- | --- |
 | [Wazuh Defensive Security Lab](./wazuh-defensive-security-lab/README.md) | Connected-agent status, custom rules, alert investigation, File Integrity Monitoring (FIM), and CIS-aligned Security Configuration Assessment (SCA). |
-| [Network Security Assessment](./network-security-assessment/README.md) | Nmap service/version enumeration, authorised lab-session evidence, packet capture, and WireGuard/WSL2 lab context. |
+| [Network Security Assessment](./network-security-assessment/README.md) | Nmap service/version enumeration, authorised lab-session evidence, traffic-analysis practice, and WireGuard/WSL2 lab context. |
 | [Incident Response Lab](./incident-response-lab/README.md) | A clearly-labelled simulated investigation, draft containment evidence, and Azure NSG deny diagnostics. |
 
 ## More work
