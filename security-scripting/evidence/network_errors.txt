@@ -1,4 +1,4 @@
 [2026/06/23 13.01.15] ERROR Missing IP address
-[2026/06/23 13.01.16] ERROR Host 10.255.255.255 is unreachable
+[2026/06/23 13.01.16] ERROR Host 192.0.2.1 is unreachable
 [2026/06/28 20.33.52] ERROR Missing IP address
-[2026/06/28 20.33.57] ERROR Host 10.255.255.255 is unreachable
+[2026/06/28 20.33.57] ERROR Host 192.0.2.1 is unreachable

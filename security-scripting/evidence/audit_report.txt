@@ -3,8 +3,8 @@
 ======================================
 
 Date and Time    : 2026/06/28 20.57.41
-Logged-in User   : [redacted]
-MAC Address      : [redacted]
+Local identity   : Not collected
+Hardware ID      : Not collected
 --------------------------------------
 Security Posture Checks
 --------------------------------------

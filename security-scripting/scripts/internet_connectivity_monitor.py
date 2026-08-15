@@ -9,7 +9,7 @@ def check_internet():
     with open(log_file, "a") as file:
         print(f"[{current_time}] Checking internet connection...")
         result = subprocess.run(
-            ["ping", "-c", "1", "-W", "2", "8.8.8.8"],
+            ["ping", "-c", "1", "-W", "2", "example.com"],
             capture_output=True,
             text=True
         )

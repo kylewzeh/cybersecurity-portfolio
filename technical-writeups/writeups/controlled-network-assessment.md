@@ -1,17 +1,21 @@
-# Controlled Network Assessment
+# Controlled network enumeration and authorised lab testing
 
 ## Scope
 
-An authorised security assessment was performed against a controlled lab target. The assessment used ping, Nmap, `curl -I`, Nikto, and tcpdump on the relevant VPN interface.
+I performed discovery and testing only against authorised, intentionally vulnerable coursework/lab hosts. The published evidence removes target addresses and does not include credentials, database contents, exploit payloads, or formative assessment material.
 
-## What was observed
+## Evidence-led observations
 
-Service discovery identified exposed FTP, SSH, HTTP, SMB, MySQL, and a further HTTP service. The review recorded outdated service versions, HTTP without encryption, directory indexing, and missing HTTP security headers. TCP capture confirmed expected ICMP traffic between the lab testing host and the target over the VPN interface.
+The [sanitised Nmap result](../../network-security-assessment/screenshots/nmap-service-enumeration-sanitized.jpg) shows FTP, SSH, and HTTP open with service/version detection. This establishes exposed services and software banners in the lab; it does not establish a compromise or a vulnerability by itself.
 
-## Interpretation
+The [sanitised session evidence](../../network-security-assessment/screenshots/metasploit-authorised-session-sanitized.jpg) shows a command-shell session and a basic identity check in an intentionally vulnerable environment. It is included only as proof of authorised lab practice, not as a guide to exploitation.
 
-The findings indicate an unnecessarily broad attack surface and several configuration risks. They do not establish successful exploitation. Severity and prioritisation were assessed in the controlled-lab context.
+During the controlled test, I also used Wireshark, tshark, and tcpdump to confirm expected generated traffic. The raw packet-capture screenshots required too much redaction to remain useful, so they are not included in the public evidence set.
 
-## Recommended treatment
+## Other authorised practice
 
-Patch outdated components; remove unnecessary services; replace FTP with SFTP; enforce HTTPS; restrict administrative, database, and file-sharing services; disable directory indexing; add security headers; and continue authorised monitoring and validation.
+The lab also included controlled SSH/Hydra and SQL injection/SQLmap exercises against authorised vulnerable services. I do not publish recovered passwords, wordlists, database enumeration output, request payloads, or target information.
+
+## Defensive treatment
+
+In a comparable authorised environment, I would validate service ownership, remove unused listeners, patch supported components, use encrypted administration/file transfer, restrict administrative and database exposure, and re-test after changes. Those are recommendations, not claims that every control was implemented in this lab.
