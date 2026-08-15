@@ -14,7 +14,7 @@ The [base rule](../../wazuh-defensive-security-lab/screenshots/wazuh-custom-ipta
 
 ## Troubleshooting and validation
 
-I encountered a rule-collision issue after the iptables log prefix changed. I adjusted the approach and retested rather than assuming the first configuration was valid. That experience reinforced the need to inspect the original log shape, rule match conditions, severity, and alert frequency together.
+I encountered a rule-collision issue because an existing Wazuh rule was already matching the event. I changed the identifying text written by the iptables logging rule so my custom rule could distinguish the event, then retested the detection. That experience reinforced the need to inspect the original log shape, rule match conditions, severity, and alert frequency together.
 
 ## Boundary
 
