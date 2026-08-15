@@ -38,7 +38,7 @@ def ping_ip(ip_address, retry=False):
         print(f"An unexpected error happened {e}")
         log_error(str(e))
 
-lab_ips = ["127.0.0.1", "", "10.255.255.255"]
+lab_ips = ["127.0.0.1", "", "192.0.2.1"]
 
 print("Starting network sweep...")
 for ip in lab_ips:

@@ -1,8 +1,12 @@
 # Technical Write-ups
 
-Short notes that explain the work, the evidence, and the limitations of each lab.
+Short evidence-linked notes explaining the lab work, what the evidence shows, and its boundaries.
 
-- [Controlled Network Assessment](./writeups/controlled-network-assessment.md)
-- [Simulated Wazuh Incident Response](./writeups/simulated-wazuh-incident-response.md)
+- [Wazuh custom detection and firewall logging](./writeups/wazuh-custom-detection-and-firewall-logging.md)
+- [Wazuh File Integrity Monitoring validation](./writeups/wazuh-fim-validation.md)
+- [WSL2 and WireGuard lab connectivity](./writeups/wsl2-wireguard-wazuh-connectivity.md)
+- [Controlled network enumeration and authorised lab testing](./writeups/controlled-network-assessment.md)
+- [Simulated Wazuh incident response](./writeups/simulated-wazuh-incident-response.md)
+- [Azure deception and monitoring lab](./writeups/azure-deception-and-monitoring-lab.md)
 
-The write-ups distinguish between work carried out in the lab, simulated events, and recommendations that were not implemented.
+These notes distinguish work carried out in the lab, simulated events, observations, recommendations, and draft controls.
