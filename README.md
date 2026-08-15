@@ -18,4 +18,4 @@ Selected evidence from authorised coursework and self-directed lab practice. The
 
 ## Evidence and scope
 
-Everything in this repository comes from authorised coursework, intentionally vulnerable lab systems, or a self-directed lab environment. Screenshots are sanitised derivatives of practical work; formative assessment briefs, submissions, credentials, address ranges, and original source files are not published. Simulated activity and proposed controls are labelled explicitly.
+Everything in this repository comes from authorised coursework, intentionally vulnerable lab systems, or a self-directed lab environment. Screenshots are sanitised derivatives of practical work; formative assessment briefs, submissions, credentials, real lab/server address ranges, and original source files are not published. Simulated activity and proposed controls are labelled explicitly.
