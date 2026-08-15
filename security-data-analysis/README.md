@@ -1,12 +1,12 @@
 # Security Data Analysis
 
-This area covers Excel-based analysis and reporting completed during coursework.
+This project area documents basic security-data review and reporting practice from the lab work. I used Wazuh dashboard severity counts and event details to support initial triage, then checked the affected agent, rule context, and original log rather than relying on counts alone.
 
-## Work completed
+## Evidence
 
-- reviewed security-related assessment results
-- organised findings into tables and summaries
-- compared observations across lab exercises
-- produced reporting-style outputs for technical evidence
+- [Wazuh alert severity overview](../wazuh-defensive-security-lab/screenshots/wazuh-alert-severity-overview.jpg)
+- [Alert investigation example](../wazuh-defensive-security-lab/screenshots/wazuh-authentication-alert-investigation.jpg)
 
-The source material supports basic security data review and reporting. It does not support a claim of SIEM analytics engineering or advanced statistical modelling.
+## Scope and limitations
+
+The source evidence supports basic review, filtering, comparison, and reporting. It does not support claims of SIEM engineering, advanced statistical modelling, threat hunting at organisational scale, or managed SOC operations.
