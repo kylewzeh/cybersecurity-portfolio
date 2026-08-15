@@ -2,7 +2,7 @@
 
 ## Lab purpose
 
-I built a Wazuh-based monitoring lab to practise endpoint visibility, detection validation, and evidence-led investigation. The environment evolved from local WSL2 distributions to monitored Ubuntu, Kali, Metasploitable, and lecturer-hosted lab systems; a later Azure Ubuntu lab endpoint was also connected for monitoring practice.
+I built a Wazuh-based monitoring lab to practise endpoint visibility, detection validation, and evidence-led investigation. The environment used a dedicated Ubuntu-based Wazuh manager under WSL2, with agents on Ubuntu, Kali Linux, Metasploitable, the lecturer-hosted Juice Shop environment, and later an Azure Ubuntu endpoint.
 
 This is controlled lab work, not a production SOC deployment.
 
