@@ -1,14 +1,12 @@
-# Evidence Register
+# Evidence register
 
-| Area | Evidence reviewed | Portfolio wording | Status |
+| Area | Published evidence | Evidence-bounded portfolio wording | Status |
 | --- | --- | --- | --- |
-| Endpoint monitoring | Wazuh monitoring of Ubuntu Desktop VM | Monitored endpoint activity in a controlled lab | Performed in a controlled lab |
-| File Integrity Monitoring | Wazuh FIM used to identify an unauthorised file change | Used Wazuh File Integrity Monitoring during a simulated incident exercise | Simulated incident |
-| Configuration assessment | Wazuh Security Configuration Assessment aligned to CIS benchmarks | Ran Security Configuration Assessment checks and reviewed hardening posture | Performed in a controlled lab |
-| Network monitoring | `tshark` used to monitor packet flows | Used `tshark` to observe packet flows and investigate unusual traffic patterns | Performed in a controlled lab |
-| Containment | `iptables` rule described for blocking the Kali VM IP | Applied an `iptables` containment control in the simulated lab scenario | Simulated incident |
-| Recovery | WSL2 export backups and weekly test restoration described | Created WSL2 export backups and exercised restoration | Performed in a controlled lab |
+| Agent monitoring | [Agent status](../screenshots/wazuh-agent-status.jpg) | Reviewed agent operating system, version, and connection state in a Wazuh lab. | Performed in controlled lab |
+| Alert review | [Port-change alert](../screenshots/wazuh-port-change-alert.jpg) and [authentication event](../screenshots/wazuh-authentication-alert-investigation.jpg) | Inspected rules, severity, agent context, and original event details during generated lab activity. | Performed in controlled lab |
+| Custom detection | [Custom iptables rule](../screenshots/wazuh-custom-iptables-rule.jpg) and [correlation rule](../screenshots/wazuh-firewall-correlation-rule.jpg) | Created and retested rules for iptables-formatted lab events and repeated firewall drops. | Performed in controlled lab |
+| FIM | [Integrity event](../screenshots/wazuh-file-integrity-monitoring.jpg) | Validated file-integrity monitoring using controlled file changes. | Performed in controlled lab |
+| SCA | [CIS-aligned assessment](../screenshots/wazuh-security-configuration-assessment.jpg) | Reviewed Wazuh SCA results against the CIS Ubuntu 22.04 benchmark. | Performed in controlled lab |
+| Containment | [Draft iptables configuration](../../incident-response-lab/screenshots/draft-iptables-containment.jpg) | Documented a proposed host-firewall containment configuration for the simulated scenario. | Drafted for evidence; execution not inferred |
 
-Published screenshots: [Security Configuration Assessment](../screenshots/wazuh-security-configuration-assessment.jpg) and [File Integrity Monitoring](../screenshots/wazuh-file-integrity-monitoring.jpg). They were extracted from the submitted practical material and exclude assessment pages and student information.
-
-Do not add unredacted screenshots, internal addresses, assessment pages, or source documents to this repository.
+The public images are sanitised derivatives. They omit assessment pages, credentials, direct addresses, infrastructure names, and original source documents.
